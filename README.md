@@ -16,6 +16,8 @@ And that's it! You can adjust parameters such as font used and image size (in re
 
 square display with pic1.jpg as filler, can replace with a logo or whatever or just leave blank. Square mostly usefule for large sets of cameras. ie if you have 100 camera feeds you can cram it into a 10x10. 
 ![img_Source](accessAndIndexAllCameras/showAllCameras_square_demo_output.jpg)
+
+
 Vertical & Horizontal
 ![img_Source](accessAndIndexAllCameras/showAllCameras_vertical_demo_output.jpg) ![img_Source](accessAndIndexAllCameras/showAllCameras_horizontal_demo_output.jpg)
 

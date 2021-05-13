@@ -12,11 +12,11 @@ _pip install requirements.txt_    (skip this step if you already have recent ver
 
 _python showAllCameras.py_
 
-And that's it! You can adjust parameters such as font used and image size (in resized_dimensions variable). Lines 187-189 let you choose the display option between vertical, horizontal, and square (see demo pics below). 
+And that's it! You can adjust parameters such as font used and image size (in resized_dimensions variable). **Lines 187-189 let you choose the display option between vertical, horizontal, and square (see demo pics below).**
 
 Indices are given in the bit of red text, may be too small here but is clear in the program. 
 
-square display with pic1.jpg as filler, can replace with a logo or whatever or just leave blank. Square mostly usefule for large sets of cameras. ie if you have 100 camera feeds you can cram it into a 10x10. 
+square display with pic1.jpg as filler, can replace with a logo or whatever or just leave blank. Square mostly usefule for large sets of cameras. ie if you have 100 camera feeds you can cram it into a 10x10. Method we used to combine images required dimension parity, so you can't make them in a rectangle, only a square. (Could adjust code but square with filler works well enough for me. You can see that, since i only have 2 cameras on this device 2^2 = 4 > 2 > 1 = 1^2 so it rounds up to the nearest perfect square and gives us 2 filler images. 
 ![img_Source](accessAndIndexAllCameras/showAllCameras_square_demo_output.jpg)
 
 

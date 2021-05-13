@@ -8,7 +8,7 @@ This directory contains a file called **showAllCameras.py**. This file shows you
 ### To Run 
 in terminal:
 
-_pip install requirements.txt_    (skip this step if you already have recent versions of numpy and opencv-python, its just those 2 libraries. Works on current versions of those librearies as of May 2021)
+_pip install requirements.txt_    (skip this step if you already have recent versions of numpy and opencv-python, its just those 2 libraries. Works on current versions of those libraries as of May 2021)
 
 _python showAllCameras.py_
 

@@ -23,6 +23,17 @@ square display with pic1.jpg as filler, can replace with a logo or whatever or j
 Vertical & Horizontal
 ![img_Source](OpenCV_TotalAccess/demo_imgs/showAllCameras_vertical_demo_output.jpg) ![img_Source](OpenCV_TotalAccess/demo_imgs/showAllCameras_horizontal_demo_output.jpg)
 
+### Apply the index
+I included a tkinter app to help the least technical of people apply the index correctly. While this walkthrough will be in code, tkinter apps can be easily turn into exe's via pyinstaller. Note that all the app does is change the number in the txt file selectedCameraIndex.txt So just edit that if you so choose. But made to be streamlined for rapid actual deployment. 
+
+Simply run the tkinter app in console using _python tkinterEnterIndex.py_ to open the tkinter app:
+
+![img_Source](OpenCV_TotalAccess/demo_imgs/tkinter_interface.jpg)
+
+Finally lets see the camera selected by the tkinter app using _python showSelectedCamera.py_
+
+Here I selected camera 1, ie my 2nd laptop camera facing behind my screen. I also applied a grayscale operation as a bit of a placeholder function. Change to whatever function you want to apply, or none at all.  
+
 ### Notes 
 Obviously programs accessing all your cameras is a bit of a no-no so your antivirus may block access. Use responsibly. 
 

@@ -1,3 +1,7 @@
+#Collection of random functions used during program creation. Most works and does something, not necessarily everything desired, hence why they are here.
+#Everything below this line, including comments, are as-is old stuff. Might be of some help with something or another. 
+#--------------------------------------------------------------------------------------------
+
 #Algorithm to show feed of all available cameras 
 #Label each with its number that would go into cv2.VideoCapture(0) function 
 #maybe a try: except on video cams over indexes until you get a 'no image' error

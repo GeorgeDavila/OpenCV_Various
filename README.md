@@ -28,9 +28,11 @@ I included a tkinter app to help the least technical of people apply the index c
 
 Simply run the tkinter app in console using _python tkinterEnterIndex.py_ to open the tkinter app:
 
-![img_Source](OpenCV_TotalAccess/demo_imgs/tkinter_interface.jpg)
+![img_Source](OpenCV_TotalAccess/demo_imgs/tkinter_interface2.jpg)
 
 Finally lets see the camera selected by the tkinter app using _python showSelectedCamera.py_
+
+![img_Source](OpenCV_TotalAccess/demo_imgs/selected_camera_demo_small.jpg)
 
 Here I selected camera 1, ie my 2nd laptop camera facing behind my screen. I also applied a grayscale operation as a bit of a placeholder function. Change to whatever function you want to apply, or none at all.  
 

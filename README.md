@@ -1,5 +1,5 @@
 # OpenCV_Various
-Variety of OpenCV Codes, scripts, and snippets I made 
+Variety of OpenCV Codes. All made by me if included in this repo. Each directory = different project. 
 
 # The Directories
 ## OpenCV_TotalAccess
